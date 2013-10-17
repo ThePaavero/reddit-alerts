@@ -17,6 +17,7 @@ Route::get('login', 'AuthController@login');
 Route::post('login', 'AuthController@submit_login');
 Route::get('logout', 'AuthController@logout');
 Route::get('reddit', 'RedditController@index');
+Route::get('reddit/search/{term}', 'RedditController@search');
 
 Route::get('signup', 'AuthController@signup');
 Route::post('signup', 'AuthController@signup_submit');
