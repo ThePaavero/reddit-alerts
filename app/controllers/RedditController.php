@@ -16,10 +16,10 @@ class RedditController extends BaseController {
 	{
 		$redirect_to = '';
 
-        if($term === '')
-        {
-        	return Redirect::to($redirect_to);
-        }
+		if($term === '')
+		{
+			return Redirect::to($redirect_to);
+		}
 
 		$results = $this->doSearch($term);
 
