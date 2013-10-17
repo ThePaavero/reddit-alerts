@@ -1,4 +1,0 @@
-reddit-alerts
-=============
-
-Placeholder repo
